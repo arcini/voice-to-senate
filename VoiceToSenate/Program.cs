@@ -1,6 +1,12 @@
 using VoiceToSenate.Components;
+using MudBlazor.Services;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+// MUDBLAZOR
+builder.Services.AddMudServices();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
