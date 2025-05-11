@@ -16,6 +16,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: Dev
 
     steps:
       - uses: actions/checkout@v4
@@ -68,7 +69,7 @@ jobs:
           username: ${{ secrets.FtpUsername }}
           password: ${{ secrets.FtpPassword }}
           local-dir: /a/published/
-          server-dir: /dev/voicetosenate-dev/
+          server-dir: $FTP_PATH
           dry-run: true
           log-level: verbose
           
