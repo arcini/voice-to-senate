@@ -65,9 +65,9 @@ jobs:
       - name: Deploy to host over FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FtpServer }}
-          username: ${{ secrets.FtpUsername }}
-          password: ${{ secrets.FtpPassword }}
+          server: ${{ secrets.FTPSERVER }}
+          username: ${{ secrets.FTPUSERNAME }}
+          password: ${{ secrets.FTPPASSWORD }}
           local-dir: $GITHUB_WORKSPACE
           server-dir: $FTP_PATH
           dry-run: true
