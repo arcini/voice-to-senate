@@ -59,7 +59,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-          path: $GITHUB_WORKSPACE
 
       - name: Deploy to host over FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -67,7 +66,6 @@ jobs:
           server: ${{ secrets.FTPSERVER }}
           username: ${{ secrets.FTPUSERNAME }}
           password: ${{ secrets.FTPPASSWORD }}
-          local-dir: ${{ vars.GITHUB_WORKSPACE }}
           server-dir: ${{ vars.FTP_PATH }}
           log-level: verbose
           
