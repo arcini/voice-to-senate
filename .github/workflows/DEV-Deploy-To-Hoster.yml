@@ -69,7 +69,6 @@ jobs:
           password: ${{ secrets.FTPPASSWORD }}
           local-dir: ${{ vars.GITHUB_WORKSPACE }}
           server-dir: ${{ vars.FTP_PATH }}
-          dry-run: true
           log-level: verbose
           
           
