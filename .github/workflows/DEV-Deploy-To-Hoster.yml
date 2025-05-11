@@ -67,7 +67,7 @@ jobs:
           server: ${{ secrets.FTPSERVER }}
           username: ${{ secrets.FTPUSERNAME }}
           password: ${{ secrets.FTPPASSWORD }}
-          local-dir: $GITHUB_WORKSPACE
+          local-dir: $GITHUB_WORKSPACE/
           server-dir: $FTP_PATH
           dry-run: true
           log-level: verbose
