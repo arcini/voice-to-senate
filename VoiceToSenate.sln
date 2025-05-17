@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceToSenate", "VoiceToSenate\VoiceToSenate.csproj", "{FE6D222A-51D5-4F9E-B853-CC712F4268AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceToSenate", "VoiceToSenate\VoiceToSenate.csproj", "{4C3ACAE0-61B8-44B5-BDC0-D2A2EF831937}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FE6D222A-51D5-4F9E-B853-CC712F4268AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE6D222A-51D5-4F9E-B853-CC712F4268AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE6D222A-51D5-4F9E-B853-CC712F4268AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE6D222A-51D5-4F9E-B853-CC712F4268AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3ACAE0-61B8-44B5-BDC0-D2A2EF831937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3ACAE0-61B8-44B5-BDC0-D2A2EF831937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3ACAE0-61B8-44B5-BDC0-D2A2EF831937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3ACAE0-61B8-44B5-BDC0-D2A2EF831937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

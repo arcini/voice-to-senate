@@ -4,14 +4,12 @@
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>cc73974e-3460-4a56-b815-64b4313c295e</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MudBlazor" Version="8.5.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="wwwroot\lib\" />
+      <PackageReference Include="Syncfusion.Blazor.Navigations" Version="29.2.4" />
+      <PackageReference Include="Syncfusion.Blazor.Themes" Version="29.2.4" />
     </ItemGroup>
 
 </Project>
