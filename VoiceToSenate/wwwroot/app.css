@@ -41,3 +41,11 @@ h1:focus {
     height: auto !important;
     min-height: unset !important;
 }
+
+.navlink-no-underline {
+    text-decoration: none;
+}
+
+.navlink-no-underline.active {
+    font-weight: bold; /* optional: how to style the active nav */
+}
